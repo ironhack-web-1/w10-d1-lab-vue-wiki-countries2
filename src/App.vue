@@ -1,7 +1,25 @@
 <template>
   <div className="app">
+    <Navbar />
+    <CountriesList />
+    <CountryDetails />
   </div>
 </template>
+
+<script>
+import CountriesList from './components/CountriesList.vue';
+import Navbar from './components/Navbar.vue';
+import CountryDetails from './components/CountryDetails.vue';
+
+export default {
+  components: {
+    Navbar,
+    CountriesList,
+    CountryDetails
+  }
+}
+</script>
+
 
 <style>
 body {
