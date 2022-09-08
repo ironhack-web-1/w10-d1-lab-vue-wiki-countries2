@@ -1,10 +1,5 @@
 <template>
   <div className="app">
-    <header className="app-header">
-      <p>
-        Edit <code>src/main.js</code> and save to reload.
-      </p>
-    </header>
   </div>
 </template>
 
